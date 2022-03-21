@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{ /* IMMAGINE PRINCIPALE */
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#contenuto{
+  background-color: #0009;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 50px;
+}
+
+
+header{ /* LOGO E SCRITTE */
+  text-align: center;
+  color: #0f0;
+}
+
+header > img{
+  width: 20%;
+}
+
+
+nav{ /* BARRA DELLA PRENOTAZIONE */
+  text-align: center;
+  background-color: #0f0;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+nav > input{
+  padding: 2px 5px;
+  margin: 0 3px;
+}
+
+
+section{ /* TRE GIORNI E LUOGHI */
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+section > h2{
+  display: inline-block;
+}
+
+.quantita{ /* STATO CARICA */
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.giallo{
+  background-color: #ff0;
+  margin-right: 60%;
+}
+
+.verde{
+  background-color: #0f0;
+  margin-right: 20%;
+}
+
+.rosso{
+  background-color: #f00;
+  margin-right: 80%;
+}
